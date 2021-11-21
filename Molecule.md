@@ -11,7 +11,7 @@ sudo pip3 install molecule-vagrant
 
 ```
 
-* Verify successful installation with the following
+## Verify successful installation with the following
 
 ```
 pip3 list | grep molecule
@@ -55,15 +55,15 @@ molecule init sceario -d docker
 
 * test the default scenario
 
-`molecule test`
+    `molecule test`
 
 * test a scenario called vagrant
 
-`molecule test -s <scenario name>`
+    `molecule test -s <scenario name>`
 
 * test all scenarios
 
-`molecule test --all`
+    `molecule test --all`
 
 ## Notes
 
